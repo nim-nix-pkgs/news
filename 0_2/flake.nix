@@ -11,6 +11,7 @@
   inputs.src-news-0_2.ref   = "refs/tags/0.2";
   inputs.src-news-0_2.owner = "tormund";
   inputs.src-news-0_2.repo  = "news";
+  inputs.src-news-0_2.dir   = "";
   inputs.src-news-0_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

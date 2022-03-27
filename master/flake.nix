@@ -11,6 +11,7 @@
   inputs.src-news-master.ref   = "refs/heads/master";
   inputs.src-news-master.owner = "tormund";
   inputs.src-news-master.repo  = "news";
+  inputs.src-news-master.dir   = "";
   inputs.src-news-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
